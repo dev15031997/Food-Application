@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dev Food Page | Best ever</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1255px)" href="css/phone.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Lato:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.jpg" alt="This is a Logo">
+        </div>
+
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">About</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <h1 class="h-primary">Welcome to my Cafe</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur ipsa quam ipsam pariatur nihil harum
+            perferendis! .</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <!-- Services -->
+    <section id="services-container">
+        <h1 class="h-primary">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/burger.jpg" alt="">
+                <h2 class="h-secondary">Food Ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio sed quae illo dicta eaque magni
+                    similique minima, exercitationem repudiandae ratione at, expedita cum dignissimos tenetur aliquid
+                    earum, repellat aspernatur cupiditate!</p>
+            </div>
+            <div class="box">
+                <img src="img/pizza.jpg" alt="">
+                <h2 class="h-secondary">Food Catering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio sed quae illo dicta eaque magni
+                    similique minima, exercitationem repudiandae ratione at, expedita cum dignissimos tenetur aliquid
+                    earum, repellat aspernatur cupiditate!</p>
+            </div>
+            <div class="box">
+                <img src="img/delivery.jpg" alt="">
+                <h2 class="h-secondary">Bulk Ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio sed quae illo dicta eaque magni
+                    similique minima, exercitationem repudiandae ratione at, expedita cum dignissimos tenetur aliquid
+                    earum, repellat aspernatur cupiditate!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client section -->
+    <section id="client-section">
+        <h1 class="h-primary">Our clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/appleclient.png" alt="CLIENT PIC">
+            </div>
+            <div class="client-item">
+                <img src="img/fbclient.jpeg" alt="CLIENT PIC">
+            </div>
+            <div class="client-item">
+                <img src="img/mcirosoftclient.jpg" alt="CLIENT PIC">
+            </div>
+            <div class="client-item">
+                <img src="img/skypeclient.png" alt="CLIENT PIC">
+            </div>
+            <div class="client-item">
+                <img src="img/mcirosoftclient.jpg" alt="CLIENT PIC">
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <h1 class="h-primary">Contact US</h1>
+        <div id="contact-box">
+            <form action="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name... " required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email... " required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter Your Number... "
+                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10">Enter your Message...</textarea>
+                <input type="submit" id="submit" name="SUBMIT">
+
+            </form>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy-Dev(2022-23).All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
